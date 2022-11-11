@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DogAtivity"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/Dtext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="버튼을 누르면 강아지 사진이 10도씩 돌아갑니다."
+        android:textSize="25dp"
+        android:background="#A17CCAD5"
+        />
+
+    <Button
+        android:id="@+id/Dbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="버튼"
+        android:drawableLeft="@drawable/ic_launcher_foreground"
+        android:drawableRight="@drawable/ic_launcher_foreground"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:id="@+id/Dim1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dog"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        />
+
+
+</LinearLayout>
